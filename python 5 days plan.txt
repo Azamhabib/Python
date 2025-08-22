@@ -1,0 +1,66 @@
+Day-by-Day Plan
+Day 1  Python Basics (Variables, Types, Input/Output)
+     Learn:
+        ? Variables & data types (int, float, string, bool)  Done
+        ? print()Done 
+        ?  input()Done
+        ? Type conversion (int(), str(), float()) Done
+     Task: Done
+        ? Create a script day1_basics.py with: 
+            ? Your name, age, location as variables
+            ? Print them in a sentence
+        ? Push to GitHub repo: learning-python-ds
+
+Day 2  Operators, Conditions, Loops
+     Learn: 
+        ? Arithmetic & comparison operators Done
+        ? if, elif, else Done
+        ? for and while loops Done
+     Task:  
+        ? Make a program that takes user input for a number and:
+            ? Tells if it's even/odd
+            ? Counts from 1 to that number
+        ? Push to GitHub
+
+Day 3  Lists, Tuples, Dictionaries, Sets Incomplete
+     Learn:
+        ? Creating & modifying lists  Done
+        ? Dictionary key-value pairs 
+        ? Iterating over data structures 
+     Task:
+        ? Store a list of your favorite programming languages
+        ? Add/remove an item, print them in reverse
+        ? Push to GitHub
+
+Day 4  Functions & Modules Incomplete
+     Learn:
+        ? Defining functions with parameters
+        ? Returning values
+        ? Importing Python modules (math, random)
+     Task:
+        ? Function that calculates BMI given height & weight
+        ? Function that generates a random password
+        ? Push to GitHub
+
+Day 5  File Handling Incomplete
+     Learn:
+        ? Reading and writing text files (open())
+        ? Using with open() syntax
+     Task:
+        ? Write a program that:
+            ? Creates data.txt and writes 5 lines of text
+            ? Reads and prints them
+        ? Push to GitHub
+
+Day 6  Mini Project: Contact Book Incomplete
+
+     Combine:
+        ? Lists/Dictionaries
+        ? File I/O
+        ? Functions
+     Task:
+        ? Program that:
+            ? Lets user add, search, and delete contacts
+            ? Stores data in a file
+        ? Push to GitHub
+
