@@ -44,10 +44,9 @@ except ValueError:
     # Handle cases where the input is not a valid number
     print("Invalid input! Please enter a numeric value for the score.")
 
-
-#----------------------------------------
-# Case 2 pro Level 🦾
-#----------------------------------------
+'''----------------------------------------
+ Case 2 pro Level 🦾 Expended Program
+----------------------------------------'''
 
 def obtain_grade(score):
     #Determines the grade based on the score.
@@ -115,4 +114,62 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
-sdfsdf
+
+
+
+'''---------------------------------------
+Question 2
+In the exercise for the previous lesson, you wrote a function cost_of_project() that estimated the price of rings for an online shop that sells rings with custom engravings. This function did not use conditional statements. In this exercise, you will rewrite the function to use conditional statements. Recall that the online shop has the following price structure:
+
+Gold plated rings have a base cost of $50, and you charge $7 per engraved unit.
+Solid gold rings have a base cost of $100, and you charge $10 per engraved unit.
+Spaces and punctuation are counted as engraved units.
+Your function cost_of_project() takes two arguments:
+
+engraving - a Python string with the text of the engraving
+solid_gold - a Boolean that indicates whether the ring is solid gold
+It should return the cost of the project.
+
+The function has been partially completed for you, and you need to fill in the blanks to complete the function.
+---------------------------------------'''
+
+
+'''----------------------------------------
+Question 3
+You are a programmer at a water agency. Recently, you have been tasked to write a function get_water_bill() that takes as input:
+
+num_gallons = the number of gallons of water that a customer used that month. (This will always be an integer with no decimal part.)
+It should output the water bill.
+
+The water agency uses this pricing structure:
+
+Tier	Amount in gallons	Price per 1000 gallons
+Tier 1	0 - 8,000	$5
+Tier 2	8,001 - 22,000	$6
+Tier 3	22,001 - 30,000	$7
+Tier 4	30,001+	$10
+For example:
+
+Someone who uses 10,000 gallons of water in a month is placed in Tier 2, and needs to pay a water bill of $6 * 10 = $60. In other words, get_water_bill(10000) should return 60.0.
+Someone who uses 25,000 gallons of water in a month is placed in Tier 3, and needs to pay a water bill of $7 * 25 = $175. In other words, get_water_bill(25000) should return 175.0.
+Do not round your answer. So, your answer might return fractions of a penny.
+-----------------------------------------------------------------------------'''
+
+
+
+'''--------------------------------------------------------------------------
+Question 4
+You work for a company that provides data services. For $100/month, your company provides 15 gigabytes (GB) of data. Then, any additional data is billed at $0.10/MB (or $100/GB, since 1,000 MB are in 1 GB).
+
+Use the next code cell to write a function get_phone_bill() that takes as input:
+
+gb = number of GB that the customer used in a month
+It should return the customer's total phone bill.
+
+For instance:
+
+A customer who uses 10 GB of data in one month is billed only $100, since the usage stayed under 15 GB. In other words, get_phone_bill(10) should return 100.
+A customer who uses 15.1 GB (or 15 GB + 100 MB) of data in one month has gone over by .1 GB, so they must pay $100 (cost of plan), plus $0.10 * 100 = $10, for a total bill of $110. In other words, get_phone_bill(15.1) should return 110.
+Do not round your answer.
+--------------------------------------------------------------------------------'''
+
