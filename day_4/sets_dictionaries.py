@@ -290,7 +290,7 @@ print ("Top student in science is:", top_student, "with score:",heighest_score)
 #-------------------------------------------------------
 #Practice challenge
 '''
-We’ll use the same students dictionary.
+use the same students dictionary.
 
 👉 Your task:
 
