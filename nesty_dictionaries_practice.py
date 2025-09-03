@@ -78,3 +78,54 @@ So:
 
 "Sara" stays "Sara " (1 space added).
 '''
+#add headers and print your student scores in a clean table format.
+students = {
+    "Ali": {"Math": 90, "Science": 85},
+    "Sara": {"Math": 78, "Science": 92},
+    "John": {"Math": 88, "Science": 76}
+}
+
+# Print table header
+print(f"{'Name':<6} | {'Subject':<8} | {'Score':<5}")
+print("-" * 30)  # separator line
+
+# Print student scores
+for name, subjects in students.items():
+    for subject, score in subjects.items():
+        print(f"{name:<6} | {subject:<8} | {score:<5}")
+
+
+# print out put with different code
+
+students = {
+    "Ali": {"Math": 90, "Science": 85},
+    "Sara": {"Math": 78, "Science": 92},
+    "John": {"Math": 88, "Science": 76}
+}
+
+# ANSI escape codes for colors
+GREEN = "\033[92m"
+RESET = "\033[0m"
+
+# Print table header in green
+print(GREEN + f"{'Name':<6} | {'Subject':<8} | {'Score':<5}" + RESET)
+print("-" * 30)
+
+# Print student scores (normal)
+for name, subjects in students.items():
+    for subject, score in subjects.items():
+        print(f"{name:<6} | {subject:<8} | {score:<5}")
+
+''''
+Common colors:
+
+\033[91m → Red
+
+\033[92m → Green
+
+\033[93m → Yellow
+
+\033[94m → Blue
+
+\033[0m → Reset to default
+'''
